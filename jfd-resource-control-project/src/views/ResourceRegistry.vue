@@ -1,8 +1,21 @@
 <template>
     <div class="resource-registry__page">
-        <h1>Я могла бы спать, но решила что так успокоюсь после Докера</h1>
+        <header-menu></header-menu>
     </div>
 </template>
+
+<script lang="ts">
+import HeaderMenu from '@/components/HeaderMenu.vue';
+
+export default {
+
+    name: 'ResourceRegistry',
+    components: {
+        HeaderMenu
+    }
+}
+
+</script>
 
 <style scoped>
 h1 {
