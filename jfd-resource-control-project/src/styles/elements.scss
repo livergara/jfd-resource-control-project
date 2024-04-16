@@ -1,8 +1,22 @@
 @import './variables.scss';
+@import './fonts.scss';
 
 // Верхнее меню
-.header-menu{
+.nav-menu{
     background-color: $glass-white-05;
     border: 1px solid $glass-white-05;
     border-radius: 5px;
+
+    ul{
+        display: flex;
+        margin: 26px 35px;
+        padding: 0;
+
+        li {
+            list-style-type: none;
+            a{
+                padding: 10px 20px;
+            }
+        }
+    }
 }

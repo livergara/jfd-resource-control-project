@@ -1,22 +1,22 @@
-<template>
-    <div class="projects-registry__page">
-        <header-menu></header-menu>
-        <h1>Реестр проектов</h1>
-    </div>
-</template>
-
 <script lang="ts">
-import HeaderMenu from '@/components/HeaderMenu.vue';
+import NavMenu from '@/components/NavigationMenu/NavMenu.vue';
 
 export default {
 
     name: 'ProjectsRegistry',
     components: {
-        HeaderMenu
+        NavMenu
     }
 }
 
 </script>
+
+<template>
+    <div class="projects-registry__page">
+        <nav-menu></nav-menu>
+        <h1>Реестр проектов</h1>
+    </div>
+</template>
 
 <style scoped>
 h1 {

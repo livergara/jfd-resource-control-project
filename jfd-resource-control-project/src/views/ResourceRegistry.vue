@@ -1,17 +1,18 @@
 <template>
     <div class="resource-registry__page">
-        <header-menu></header-menu>
+        <nav-menu></nav-menu>
+        <h1>Матрица компетенций</h1>
     </div>
 </template>
 
 <script lang="ts">
-import HeaderMenu from '@/components/HeaderMenu.vue';
+import NavMenu from '@/components/NavigationMenu/NavMenu.vue';
 
 export default {
 
     name: 'ResourceRegistry',
     components: {
-        HeaderMenu
+        NavMenu
     }
 }
 
@@ -19,6 +20,6 @@ export default {
 
 <style scoped>
 h1 {
-    color: darkgreen;
+    color: white;
 }
 </style>

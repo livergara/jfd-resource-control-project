@@ -1,18 +1,18 @@
 <template>
     <div class="request-journal__page">
-        <header-menu></header-menu>
+        <nav-menu></nav-menu>
         <h1>Журнал заявок</h1>
     </div>
 </template>
 
 <script lang="ts">
-import HeaderMenu from '@/components/HeaderMenu.vue';
+import NavMenu from '@/components/NavigationMenu/NavMenu.vue';
 
 export default {
 
     name: 'RequestJournal',
     components: {
-        HeaderMenu
+        NavMenu
     }
 }
 

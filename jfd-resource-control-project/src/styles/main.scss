@@ -1,9 +1,11 @@
 @import './variables.scss';
 @import './elements';
+@import './fonts.scss';
 @import './layout.scss';
 
 html{
     background-color: black;
+    font-family: 'Bitter';
     height: 100%;
 }
 
@@ -11,6 +13,14 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+a {
+    color: $gray;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 4.8px;
+    text-decoration: none;
 }
 
 #app{
