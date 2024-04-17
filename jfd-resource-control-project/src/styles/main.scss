@@ -3,10 +3,21 @@
 @import './fonts.scss';
 @import './layout.scss';
 
+*{
+    box-sizing: border-box;
+}
+
 html{
     background-color: black;
     font-family: 'Bitter';
     height: 100%;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 body{
@@ -15,12 +26,20 @@ body{
     height: 100%;
 }
 
-a {
+a, p {
     color: $gray;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 200;
     letter-spacing: 4.8px;
+    margin: 0;
     text-decoration: none;
+}
+
+h1{
+    color: $gray;
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 10px;
 }
 
 #app{
@@ -29,5 +48,40 @@ a {
 
 .resource-control-app{
     background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(41,41,41,1) 100%);
-    padding: 28px 116px;
+}
+
+@media (min-width: 375px) {
+    .resource-control-app{
+        padding: 15px 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .resource-control-app{
+        padding: 28px 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .resource-control-app{
+        padding: 28px 80px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .resource-control-app{
+        padding: 28px 80px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .resource-control-app{
+        padding: 28px 80px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .resource-control-app{
+        padding: 28px 88px;
+    }
 }

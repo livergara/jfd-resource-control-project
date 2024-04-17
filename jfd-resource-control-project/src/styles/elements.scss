@@ -8,15 +8,35 @@
     border-radius: 5px;
 
     ul{
+        align-items: center;
         display: flex;
-        margin: 26px 35px;
+        margin: 10px 30px;
         padding: 0;
 
         li {
             list-style-type: none;
-            a{
-                padding: 10px 20px;
-            }
         }
     }
 }
+
+.responsive-nav-menu{
+    display: flex;
+    justify-content: space-between;
+
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+}
+
+.header-content__logo{
+    width: 30%;
+}
+
+.header-content__nav{
+    max-width: 1240px;
+    width: 70%;
+}
+

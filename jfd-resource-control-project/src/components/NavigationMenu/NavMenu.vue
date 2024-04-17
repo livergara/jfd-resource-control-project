@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-   <div class="nav-menu col-7">
+   <div class="nav-menu">
       <div>
          <ResponsiveNavMenu :nav-links="navLinks" />
       </div>
@@ -43,4 +43,11 @@ export default {
 </template>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@media (max-width: 1919px) {
+   .nav-menu {
+      background-color: transparent;
+      border: none;
+   }
+}
+</style>
