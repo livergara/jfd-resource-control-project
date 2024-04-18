@@ -1,6 +1,20 @@
 @import './variables.scss';
 @import './fonts.scss';
 
+// Блок основного контента
+
+.page-title__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-main__component{
+    background-color: $glass-white-05;
+    border: 1px solid $glass-white-05;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+
 // Верхнее меню
 .nav-menu{
     background-color: $glass-white-05;
@@ -40,3 +54,21 @@
     width: 70%;
 }
 
+// Кнопки
+
+.button-default{
+    background: $gold;
+    border: none;
+    border-radius: 5px;
+    color: $black;
+    cursor: pointer;
+    font-size: 15px;
+    height: 45px;
+    letter-spacing: 4.8px;
+    padding: 13px 40px;
+    text-transform: uppercase;
+    
+    &:hover{
+        background: linear-gradient(90deg, rgba(244,209,106,1) 0%, rgba(255,255,255,1) 100%);
+    }
+}
