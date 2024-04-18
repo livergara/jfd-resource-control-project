@@ -72,3 +72,35 @@
         background: linear-gradient(90deg, rgba(244,209,106,1) 0%, rgba(255,255,255,1) 100%);
     }
 }
+
+// Таблица и ее элементы
+
+table {
+    border: none;
+    border-spacing: 0px;
+    width: 100%;
+
+    thead{
+        background-color: $glass-white-15;
+        color: $gray;
+        font-size: 15px;
+        letter-spacing: 4.8px;
+        text-align: left;
+        
+        th{
+            font-weight: 300;
+            padding: 20px 20px 20px 0px;
+        }
+    }
+
+    tbody{
+        color: $gray;
+        font-size: 14px;
+        letter-spacing: 4.8px;
+
+        td{
+            padding: 20px 35px 20px 0px;
+        }
+    }
+}
+

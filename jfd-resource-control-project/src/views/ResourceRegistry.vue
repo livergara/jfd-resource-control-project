@@ -1,3 +1,18 @@
+<script lang="ts">
+import Database from '@/components/Database/Database.vue';
+import NavMenu from '@/components/NavigationMenu/NavMenu.vue';
+
+export default {
+
+    name: 'ResourceRegistry',
+    components: {
+        NavMenu,
+        Database
+    }
+}
+
+</script>
+
 <template>
     <div class="resource-registry__page">
         <header>
@@ -12,23 +27,10 @@
                 <button class="button-default">Добавить ресурс</button>
             </div>
             <div class="page-main__component">
-                <p>Мыш таблиться</p>
+                <Database />
             </div>
         </main>
     </div>
 </template>
-
-<script lang="ts">
-import NavMenu from '@/components/NavigationMenu/NavMenu.vue';
-
-export default {
-
-    name: 'ResourceRegistry',
-    components: {
-        NavMenu
-    }
-}
-
-</script>
 
 <style scoped></style>
