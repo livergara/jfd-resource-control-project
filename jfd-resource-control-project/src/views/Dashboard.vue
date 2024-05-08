@@ -6,7 +6,9 @@
                 <nav-menu></nav-menu>
             </div>
         </header>
-        <h1>Дашбоард</h1>
+        <main>
+            <h1>Дашбоард</h1>
+        </main>
     </div>
 </template>
 

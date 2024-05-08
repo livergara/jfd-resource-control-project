@@ -19,7 +19,9 @@ export default {
                 <nav-menu></nav-menu>
             </div>
         </header>
-        <h1>Реестр проектов</h1>
+        <main>
+            <h1>Реестр проектов</h1>
+        </main>
     </div>
 </template>
 

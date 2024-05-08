@@ -6,7 +6,9 @@
                 <nav-menu></nav-menu>
             </div>
         </header>
-        <h1>Журнал заявок</h1>
+        <main>
+            <h1>Журнал заявок</h1>
+        </main>
     </div>
 </template>
 

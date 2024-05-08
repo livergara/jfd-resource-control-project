@@ -14,6 +14,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "devextreme": "23.2.5",
+    "devextreme-vue": "23.2.5",
     "pinia": "^2.1.7",
     "v-dropdown": "^3.0.0",
     "vue": "^3.4.21",

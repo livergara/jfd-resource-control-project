@@ -5,6 +5,7 @@ import ProjectsRegistry from '../views/ProjectsRegistry.vue'
 import CalendarResourcePlan from '@/views/CalendarResourcePlan.vue'
 import RequestJournal from '@/views/RequestJournal.vue'
 import Dashboard from '@/views/Dashboard.vue'
+import EditElement from '@/components/Datagrid/EditElement.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -46,6 +47,10 @@ const router = createRouter({
       path: '/dashboard',
       name: 'dashboard',
       component: Dashboard
+    },
+    {
+      path: '/edit/:id',
+      component: EditElement
     }
   ]
 })

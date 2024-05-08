@@ -9,7 +9,7 @@
 
 html{
     background-color: black;
-    font-family: 'Bitter';
+    font-family: 'Bitter', serif;
     height: 100%;
 }
 
@@ -45,6 +45,14 @@ h1{
     font-weight: 200;
     letter-spacing: 10px;
     margin: 0;
+}
+
+label{
+    color: $gray;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 4.8px;
+    padding-bottom: 10px;
 }
 
 #app{

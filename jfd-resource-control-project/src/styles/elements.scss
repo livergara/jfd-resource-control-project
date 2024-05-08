@@ -13,6 +13,14 @@
     border: 1px solid $glass-white-05;
     border-radius: 5px;
     margin-top: 45px;
+
+    h1{
+        margin-bottom: 40px;
+    }
+}
+
+.page-main__card-component{
+    padding: 50px;
 }
 
 // Верхнее меню
@@ -104,3 +112,28 @@ table {
     }
 }
 
+// Карточки создания и редактирования
+
+.resource-registry__card{
+    width: 70%;
+
+    .row{
+        justify-content: space-between;
+    }
+}
+
+.resource-registry__card__input-block{
+    width: 47%;
+
+    input{
+        background-color: $glass-black-25;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 1px $glass-white-25;
+        color: $gray;
+        font-style: italic;
+        height: 46px;
+        padding: 10px 20px;
+        width: 100%;
+    }
+}

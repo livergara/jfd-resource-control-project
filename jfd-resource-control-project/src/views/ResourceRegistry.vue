@@ -1,5 +1,5 @@
 <script lang="ts">
-import Database from '@/components/Database/Database.vue';
+import Datagrid from '@/components/Datagrid/Datagrid.vue';
 import NavMenu from '@/components/NavigationMenu/NavMenu.vue';
 
 export default {
@@ -7,7 +7,7 @@ export default {
     name: 'ResourceRegistry',
     components: {
         NavMenu,
-        Database
+        Datagrid
     }
 }
 
@@ -27,7 +27,7 @@ export default {
                 <button class="button-default">Добавить ресурс</button>
             </div>
             <div class="page-main__component">
-                <Database />
+                <Datagrid />
             </div>
         </main>
     </div>
