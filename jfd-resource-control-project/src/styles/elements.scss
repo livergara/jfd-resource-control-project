@@ -59,7 +59,7 @@
 
 .header-content__nav{
     max-width: 1240px;
-    width: 70%;
+    width: 75%;
 }
 
 // Кнопки
@@ -119,6 +119,7 @@ table {
 
     .row{
         justify-content: space-between;
+        margin-bottom: 30px;
     }
 }
 
@@ -133,6 +134,67 @@ table {
         color: $gray;
         font-style: italic;
         height: 46px;
+        padding: 10px 20px;
+        width: 100%;
+
+        &:focus-visible{
+            box-shadow: 0px 0px 5px 1px $glass-gold-50;
+            outline: none;
+        }
+    }
+
+    select{
+        appearance: none;
+        background-color: $glass-black-25;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 1px $glass-white-25;
+        color: $gray;
+        cursor: pointer;
+        font-style: italic;
+        height: 46px;
+        padding: 10px 20px;
+        width: 100%;
+
+        &:focus-visible{
+            box-shadow: 0px 0px 5px 1px $glass-gold-50;
+            outline: none;
+        }
+
+        option{
+            background-color: black;
+            color: $gray;
+            line-height: 2rem;
+        }
+    }
+
+    .dropdown{
+        position: relative;
+    }
+
+    .dropdown::after{
+        content: '\2B9F';
+        color: $gold;
+        cursor: pointer;
+        height: 10px;
+        position: absolute;
+        right: 14px;
+        top: 10px;
+        width: 20px;
+    }
+}
+
+.resource-registry__card__input-block-100{
+    width: 100%;
+
+    input{
+        background-color: $glass-black-25;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 1px $glass-white-25;
+        color: $gray;
+        font-style: italic;
+        min-height: 46px;
         padding: 10px 20px;
         width: 100%;
     }

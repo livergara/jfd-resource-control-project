@@ -1,13 +1,13 @@
 <script lang="ts">
-import Datagrid from '@/components/Datagrid/Datagrid.vue';
 import NavMenu from '@/components/NavigationMenu/NavMenu.vue';
+import DatagridResource from '@/components/DatagridResource/DatagridResource.vue'
 
 export default {
 
     name: 'ResourceRegistry',
     components: {
         NavMenu,
-        Datagrid
+        DatagridResource
     }
 }
 
@@ -27,7 +27,7 @@ export default {
                 <button class="button-default">Добавить ресурс</button>
             </div>
             <div class="page-main__component">
-                <Datagrid />
+                <DatagridResource />
             </div>
         </main>
     </div>
